@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_104" data-name="長方形 104" width="62" height="62" rx="31" transform="translate(493.5 2536)" fill="#60aced"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_92" data-name="グループ 92" transform="translate(-493.5 -2536)">
+    <g id="マスクグループ_15" data-name="マスクグループ 15" clip-path="url(#clip-path)">
+      <g id="facebook" transform="translate(493.5 2536)">
+        <path id="パス_42" data-name="パス 42" d="M31,0A31,31,0,1,1,0,31,31,31,0,0,1,31,0Z" fill="#3b5998"/>
+        <path id="パス_43" data-name="パス 43" d="M34.774,21.341h4v-5.9h-4.7v.021c-5.691.2-6.857,3.4-6.96,6.76H27.1v2.947H23.227v5.779H27.1V46.44h5.84V30.948h4.784l.924-5.779H32.943v-1.78A1.9,1.9,0,0,1,34.774,21.341Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

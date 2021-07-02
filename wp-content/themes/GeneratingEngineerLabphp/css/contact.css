@@ -1,0 +1,497 @@
+@media screen and (min-width: 1201px){
+    .wpcf7{
+        width: 100%;
+        background: #F1EEE7;
+        padding: 64px 0;
+    }
+    .wpcf7 h2{
+        width: 100%;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
+        font-size: 2.2rem;
+        color: #262626;
+        margin: 0 auto 40px auto;
+    }
+    .wpcf7 h2::before{
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        background: #B7B7B7;
+        transform: translateY(-7px);
+        margin-right: 8px;
+    }
+    .wpcf7 .wpcf7-form {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .wpcf7-form p{
+        margin-bottom: 16px;
+    }
+
+    .wpcf7-form input[type='text'],
+    .wpcf7-form input[type='email'] {
+        font-size: 1.6rem;
+        width: 300px;
+        height: 30px;
+        max-width: 100%;
+        margin-bottom: 13px;
+        box-sizing: border-box;
+        border: none;
+        background: #fcfcfc;
+    }
+    .wpcf7-form input,
+    .wpcf7-form button {
+        height: 40px;
+        padding: 0 10px;
+    }
+    .wpcf7-form textarea {
+        font-size: 1.6rem;
+        margin-bottom: 13px;
+        padding: 2px 5px;
+        width:100%;
+        box-sizing: border-box;
+    }
+    .wpcf7-form label {
+        margin-bottom: 3px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: #262626;
+    }
+    .wpcf7-formlabel span {
+        color: #BE3C3C;
+        margin-left: 4px;
+        font-weight: normal;
+    }
+    .wpcf7-form textarea{
+        border: none;
+        background: #fcfcfc;
+    }
+
+    .wpcf7-form select{
+        width: 250px;
+        height: 30px;
+        background: #fcfcfc;
+        margin-bottom: 13px;
+        border: none;
+    }
+
+    .wpcf7-form select option{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #262626;
+    }
+
+    .errmsg{
+        color: #e1536a;
+    }
+
+    .wpcf7-form p:nth-of-type(6){
+        position: relative;
+        text-align: center;
+    }
+
+    .wpcf7-form p:nth-of-type(6) .ajax-loader{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .wpcf7-submit{
+        cursor: pointer;
+        width:200px;
+        height: 30px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: #fcfcfc;
+        border: none;
+        background: #EDA421;
+        border-radius: 20px;
+        box-shadow: 2px 2px 4px #C2C2C2;
+    }
+    
+    .wpcf7-response-output{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #262626;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1200px){
+    .wpcf7{
+        width: 100%;
+        background: #F1EEE7;
+        padding: 64px 0;
+    }
+    .wpcf7 h2{
+        width: 100%;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
+        font-size: 2.2rem;
+        color: #262626;
+        margin: 0 auto 40px auto;
+    }
+    .wpcf7 h2::before{
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        background: #B7B7B7;
+        transform: translateY(-7px);
+        margin-right: 8px;
+    }
+    .wpcf7 .wpcf7-form {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .wpcf7-form p{
+        margin-bottom: 16px;
+    }
+
+    .wpcf7-form input[type='text'],
+    .wpcf7-form input[type='email'] {
+        font-size: 1.6rem;
+        width: 300px;
+        height: 30px;
+        max-width: 100%;
+        margin-bottom: 13px;
+        box-sizing: border-box;
+        border: none;
+        background: #fcfcfc;
+    }
+    .wpcf7-form input,
+    .wpcf7-form button {
+        height: 40px;
+        padding: 0 10px;
+    }
+    .wpcf7-form textarea {
+        font-size: 1.6rem;
+        margin-bottom: 13px;
+        padding: 2px 5px;
+        width:100%;
+        box-sizing: border-box;
+    }
+    .wpcf7-form label {
+        margin-bottom: 3px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: #262626;
+    }
+    .wpcf7-formlabel span {
+        color: #BE3C3C;
+        margin-left: 4px;
+        font-weight: normal;
+    }
+    .wpcf7-form textarea{
+        border: none;
+        background: #fcfcfc;
+    }
+
+    .wpcf7-form select{
+        width: 250px;
+        height: 30px;
+        background: #fcfcfc;
+        margin-bottom: 13px;
+        border: none;
+    }
+
+    .wpcf7-form select option{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #262626;
+    }
+
+    .errmsg{
+        color: #e1536a;
+    }
+
+    .wpcf7-form p:nth-of-type(6){
+        position: relative;
+        text-align: center;
+    }
+
+    .wpcf7-form p:nth-of-type(6) .ajax-loader{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .wpcf7-submit{
+        cursor: pointer;
+        width:200px;
+        height: 30px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: #fcfcfc;
+        border: none;
+        background: #EDA421;
+        border-radius: 20px;
+        box-shadow: 2px 2px 4px #C2C2C2;
+    }
+    
+    .wpcf7-response-output{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #262626;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 959px) {
+    .wpcf7{
+        width: 100%;
+        background: #F1EEE7;
+        padding: 64px 0;
+    }
+    .wpcf7 h2{
+        width: 100%;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
+        font-size: 2.2rem;
+        color: #262626;
+        margin: 0 auto 24px auto;
+    }
+    .wpcf7 h2::before{
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        background: #B7B7B7;
+        transform: translateY(-7px);
+        margin-right: 8px;
+    }
+    .wpcf7 .wpcf7-form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .wpcf7-form p{
+        margin-bottom: 16px;
+    }
+
+    .wpcf7-form input[type='text'],
+    .wpcf7-form input[type='email'] {
+        font-size: 1.6rem;
+        width: 300px;
+        height: 30px;
+        max-width: 100%;
+        margin-bottom: 13px;
+        box-sizing: border-box;
+        border: none;
+        background: #fcfcfc;
+    }
+    .wpcf7-form input,
+    .wpcf7-form button {
+        height: 40px;
+        padding: 0 10px;
+    }
+    .wpcf7-form textarea {
+        font-size: 1.6rem;
+        margin-bottom: 13px;
+        padding: 2px 5px;
+        width:100%;
+        box-sizing: border-box;
+    }
+    .wpcf7-form label {
+        margin-bottom: 3px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: #262626;
+    }
+    .wpcf7-formlabel span {
+        color: #BE3C3C;
+        margin-left: 4px;
+        font-weight: normal;
+    }
+    .wpcf7-form textarea{
+        border: none;
+        background: #fcfcfc;
+    }
+
+    .wpcf7-form select{
+        width: 250px;
+        height: 30px;
+        max-width: 100%;
+        background: #fcfcfc;
+        margin-bottom: 13px;
+        border: none;
+    }
+
+    .wpcf7-form select option{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #262626;
+    }
+
+    .errmsg{
+        color: #e1536a;
+    }
+
+    .wpcf7-form p:nth-of-type(6){
+        position: relative;
+        text-align: center;
+    }
+
+    .wpcf7-form p:nth-of-type(6) .ajax-loader{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .wpcf7-submit{
+        cursor: pointer;
+        width:200px;
+        height: 30px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: #fcfcfc;
+        border: none;
+        background: #EDA421;
+        border-radius: 20px;
+        box-shadow: 2px 2px 4px #C2C2C2;
+    }
+    
+    .wpcf7-response-output{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #262626;
+    }
+}
+
+@media screen and (max-width: 599px){
+    .wpcf7{
+        width: 100%;
+        background: #F1EEE7;
+        padding: 64px 0;
+    }
+    .wpcf7 h2{
+        width: 100%;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
+        font-size: 1.8rem;
+        color: #262626;
+        margin: 0 auto 40px auto;
+    }
+    .wpcf7 h2::before{
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        background: #B7B7B7;
+        transform: translateY(-7px);
+        margin-right: 8px;
+    }
+    .wpcf7 .wpcf7-form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .wpcf7-form p{
+        margin-bottom: 8px;
+    }
+
+    .wpcf7-form input[type='text'],
+    .wpcf7-form input[type='email'] {
+        font-size: 1.4rem;
+        width: 300px;
+        height: 30px;
+        max-width: 100%;
+        margin-bottom: 13px;
+        box-sizing: border-box;
+        border: none;
+        background: #fcfcfc;
+    }
+    .wpcf7-form input,
+    .wpcf7-form button {
+        height: 40px;
+        padding: 0 10px;
+    }
+    .wpcf7-form textarea {
+        font-size: 1.6rem;
+        margin-bottom: 13px;
+        padding: 2px 5px;
+        width:100%;
+        box-sizing: border-box;
+    }
+    .wpcf7-form label {
+        margin-bottom: 3px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #262626;
+    }
+    .wpcf7-formlabel span {
+        color: #BE3C3C;
+        margin-left: 4px;
+        font-weight: normal;
+    }
+    .wpcf7-form textarea{
+        border: none;
+        background: #fcfcfc;
+    }
+
+    .wpcf7-form select{
+        width: 250px;
+        height: 30px;
+        max-width: 100%;
+        background: #fcfcfc;
+        margin-bottom: 13px;
+        border: none;
+    }
+
+    .wpcf7-form select option{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.4rem;
+        color: #262626;
+    }
+
+    .errmsg{
+        color: #e1536a;
+    }
+
+    .wpcf7-form p:nth-of-type(6){
+        position: relative;
+        text-align: center;
+    }
+
+    .wpcf7-form p:nth-of-type(6) .ajax-loader{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .wpcf7-submit{
+        cursor: pointer;
+        width:200px;
+        height: 30px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: #fcfcfc;
+        border: none;
+        background: #EDA421;
+        border-radius: 20px;
+        box-shadow: 2px 2px 4px #C2C2C2;
+    }
+    
+    .wpcf7-response-output{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #262626;
+    }
+}

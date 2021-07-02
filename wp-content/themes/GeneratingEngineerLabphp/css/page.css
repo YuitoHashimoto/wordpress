@@ -1,0 +1,1599 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	font-size: 62.5%;
+}
+
+/* ----共通---- */
+.flex{
+    display: flex;
+}
+
+@media screen and (min-width: 1201px){
+
+	/* ----生み出すエンジニアとは---- */
+    .bc-01{
+        background: #F1EEE7;
+    }
+    .bc-02{
+        background: #fcfcfc;
+    }
+
+    .ummidasu-details{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.6rem;
+		text-decoration: none;
+		color: #262626;
+    }
+    .ummidasu-details a{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: #27A5B8;
+    }
+
+
+	main{
+		width: 100%;
+	}
+	main .umidasu-wrap{
+		width: 100%;
+	}
+	main .umidasu-wrap .umidasu-engineertoha{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    main .umidasu-wrap .umidasu-engineertoha h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3.5rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha h2::before{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha h2::after{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+
+    main .umidasu-wrap .umidasu-engineertoha .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha .umdiasu-img img{
+        width: 430px;
+    }
+    main .umidasu-text{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.8rem;
+		text-decoration: none;
+		color: #434343;
+        text-align: center;
+        padding: 32px 0;
+        letter-spacing: 3px;
+    }
+
+    main .umidasu-text02{
+        padding-top: 0px;
+        padding-bottom: 32px;
+    }
+	/* ----生み出すエンジニアとは---- */
+
+
+
+    /* 生み出すエンジニアのスキルセット */
+    .umidasu-wrap .ummidasu-skill{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3.5rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2::before{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2::after{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+    .skill-power{
+        width: 50%;
+        margin: 40px auto;
+        justify-content: space-around;
+    }
+
+    .skill-power .skill-power-it{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3rem;
+		text-decoration: none;
+		color: #262626;
+    }
+
+    .skill-power .skill-power-it::before{
+        content: '';
+		display: inline-block;
+		width: 3rem;
+		height: 3rem;
+        border-radius: 50%;
+		background: #27A5B8;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+
+    .skill-power .skill-power-business{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3rem;
+		text-decoration: none;
+		color: #262626;
+    }
+    .skill-power .skill-power-business::before{
+        content: '';
+		display: inline-block;
+		width: 3rem;
+		height: 3rem;
+        border-radius: 50%;
+		background: #BFCF45;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img img{
+        width: 500px;
+    }
+
+    .skill-power-01-wrap{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 64px;
+    }
+    .skill-power .skill-power-01{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3rem;
+		text-decoration: none;
+		color: #262626;
+    }
+
+    .skill-power .skill-power-01::before{
+        content: '';
+		display: inline-block;
+		width: 3rem;
+		height: 3rem;
+        border-radius: 50%;
+		background: #F4D770;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+    .umidasu-wrap .ummidasu-skill .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img img{
+        width: 500px;
+    }
+
+    #skill-power-01-img img{
+        width: 650px;
+    }
+
+    /* 生み出すエンジニアのスキルセット */
+
+
+
+
+    /* 生み出すエンジニアのレベル */
+    .umidasu-wrap .umidasu-level{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .umidasu-wrap .umidasu-level h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3.5rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+
+    .umidasu-wrap .umidasu-level h2::before{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+
+    .umidasu-wrap .umidasu-level h2::after{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+
+    .umidasu-wrap .umidasu-level .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        transform: translateX(-20px);
+    }
+
+    .umidasu-wrap .umidasu-level .umdiasu-img img{
+        width: 500px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items:nth-of-type(1){
+        margin-top: 0;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items .umidasu-level-name{
+        align-items: center;
+    }
+    
+    .umidasu-wrap .umidasu-level .umidasu-level-items img{
+        width: 100px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items h3{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		text-decoration: none;
+		color: #262626;
+
+        margin-left: 24px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items .umidasu-level-text{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.6rem;
+		text-decoration: none;
+		color: #262626;
+        margin-top: 16px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    /* 生み出すエンジニアのレベル */
+    .umidasu-message{
+        width: 75%;
+        margin: 0 auto;
+        padding: 180px 0;
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2.4rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        letter-spacing: 5px;
+        line-height: 50px;
+    }
+
+
+	/* ----バナ---- */
+	
+	main .business-banner{
+		width: 100%;
+		background: #F1EEE7;
+		padding: 72px 0;
+	}
+	
+	main .business-banner .business-banner-wrap{
+		width: 75%;
+		margin: 0 auto;
+	}
+	
+	main .business-banner .business-banner-wrap ul{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	main .business-banner .business-banner-wrap ul li{
+		margin: 1%;
+		list-style: none;
+	}
+	
+	main .business-banner .business-banner-wrap ul li a img{
+		width: 100%;
+	}
+	
+	/* ----バナ---- */
+}
+
+
+
+
+
+
+
+
+/* ----ノートPC---- */
+
+@media screen and (min-width: 960px) and (max-width: 1200px){
+	/* ----生み出すエンジニアとは---- */
+    .bc-01{
+        background: #F1EEE7;
+    }
+    .bc-02{
+        background: #fcfcfc;
+    }
+
+    .ummidasu-details{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.4rem;
+		text-decoration: none;
+		color: #262626;
+    }
+    .ummidasu-details a{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: #27A5B8;
+    }
+
+
+	main{
+		width: 100%;
+	}
+	main .umidasu-wrap{
+		width: 100%;
+	}
+	main .umidasu-wrap .umidasu-engineertoha{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    main .umidasu-wrap .umidasu-engineertoha h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3.5rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha h2::before{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha h2::after{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+
+    main .umidasu-wrap .umidasu-engineertoha .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha .umdiasu-img img{
+        width: 430px;
+    }
+    main .umidasu-text{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.6rem;
+		text-decoration: none;
+		color: #434343;
+        text-align: center;
+        padding: 32px 0;
+        letter-spacing: 3px;
+    }
+
+    main .umidasu-text02{
+        padding-top: 0px;
+        padding-bottom: 32px;
+    }
+	/* ----生み出すエンジニアとは---- */
+
+
+
+    /* 生み出すエンジニアのスキルセット */
+    .umidasu-wrap .ummidasu-skill{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3.5rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2::before{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2::after{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+    .skill-power{
+        width: 50%;
+        margin: 40px auto;
+        justify-content: space-around;
+    }
+
+    .skill-power .skill-power-it{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3rem;
+		text-decoration: none;
+		color: #262626;
+    }
+
+    .skill-power .skill-power-it::before{
+        content: '';
+		display: inline-block;
+		width: 3rem;
+		height: 3rem;
+        border-radius: 50%;
+		background: #27A5B8;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+
+    .skill-power .skill-power-business{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3rem;
+		text-decoration: none;
+		color: #262626;
+    }
+    .skill-power .skill-power-business::before{
+        content: '';
+		display: inline-block;
+		width: 3rem;
+		height: 3rem;
+        border-radius: 50%;
+		background: #BFCF45;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img img{
+        width: 500px;
+    }
+
+    .skill-power-01-wrap{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 64px;
+    }
+    .skill-power .skill-power-01{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3rem;
+		text-decoration: none;
+		color: #262626;
+    }
+
+    .skill-power .skill-power-01::before{
+        content: '';
+		display: inline-block;
+		width: 3rem;
+		height: 3rem;
+        border-radius: 50%;
+		background: #F4D770;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+    .umidasu-wrap .ummidasu-skill .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img img{
+        width: 500px;
+    }
+
+    #skill-power-01-img img{
+        width: 650px;
+    }
+
+    /* 生み出すエンジニアのスキルセット */
+
+
+
+
+    /* 生み出すエンジニアのレベル */
+    .umidasu-wrap .umidasu-level{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .umidasu-wrap .umidasu-level h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 3.5rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+
+    .umidasu-wrap .umidasu-level h2::before{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+
+    .umidasu-wrap .umidasu-level h2::after{
+        content: '';
+		display: inline-block;
+		width: 35px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+    }
+
+    .umidasu-wrap .umidasu-level .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        transform: translateX(-20px);
+    }
+
+    .umidasu-wrap .umidasu-level .umdiasu-img img{
+        width: 500px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items:nth-of-type(1){
+        margin-top: 0;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items .umidasu-level-name{
+        align-items: center;
+    }
+    
+    .umidasu-wrap .umidasu-level .umidasu-level-items img{
+        width: 100px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items h3{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		text-decoration: none;
+		color: #262626;
+
+        margin-left: 24px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items .umidasu-level-text{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.4rem;
+		text-decoration: none;
+		color: #262626;
+        margin-top: 16px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    /* 生み出すエンジニアのレベル */
+    .umidasu-message{
+        width: 75%;
+        margin: 0 auto;
+        padding: 180px 0;
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.8rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        letter-spacing: 5px;
+        line-height: 40px;
+    }
+
+
+	/* ----バナ---- */
+		
+	main .business-banner{
+		width: 100%;
+		background: #F1EEE7;
+		padding: 72px 0;
+	}
+
+	main .business-banner .business-banner-wrap{
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	main .business-banner .business-banner-wrap ul{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	main .business-banner .business-banner-wrap ul li{
+		margin: 1%;
+		list-style: none;
+	}
+
+	main .business-banner .business-banner-wrap ul li a img{
+		width: 100%;
+	}
+	/* ----バナ---- */
+}
+
+/* ----ノートPC---- */
+
+
+
+
+
+
+
+/* ----ipadサイズ ----*/
+
+@media screen and (min-width: 600px) and (max-width: 959px) {
+	/* ----生み出すエンジニアとは---- */
+    .bc-01{
+        background: #F1EEE7;
+    }
+    .bc-02{
+        background: #fcfcfc;
+    }
+
+    .ummidasu-details{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.2rem;
+		text-decoration: none;
+		color: #262626;
+    }
+    .ummidasu-details a{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #27A5B8;
+    }
+
+
+	main{
+		width: 100%;
+	}
+	main .umidasu-wrap{
+		width: 100%;
+	}
+	main .umidasu-wrap .umidasu-engineertoha{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    main .umidasu-wrap .umidasu-engineertoha h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha h2::before{
+        content: '';
+		display: inline-block;
+		width: 25px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-6px);
+		margin-right: 8px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha h2::after{
+        content: '';
+		display: inline-block;
+		width: 25px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-6px);
+		margin-right: 8px;
+    }
+
+    main .umidasu-wrap .umidasu-engineertoha .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha .umdiasu-img img{
+        width: 350px;
+    }
+    main .umidasu-text{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.4rem;
+		text-decoration: none;
+		color: #434343;
+        text-align: center;
+        padding: 32px 0;
+        line-height: 30px;
+    }
+
+    main .umidasu-text02{
+        padding-top: 0px;
+        padding-bottom: 32px;
+    }
+	/* ----生み出すエンジニアとは---- */
+
+
+
+    /* 生み出すエンジニアのスキルセット */
+    .umidasu-wrap .ummidasu-skill{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2::before{
+        content: '';
+		display: inline-block;
+		width: 25px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-6px);
+		margin-right: 8px;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2::after{
+        content: '';
+		display: inline-block;
+		width: 25px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-6px);
+		margin-right: 8px;
+    }
+    .skill-power{
+        width: 50%;
+        margin: 40px auto;
+        justify-content: space-around;
+    }
+
+    .skill-power .skill-power-it{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		text-decoration: none;
+		color: #262626;
+    }
+
+    .skill-power .skill-power-it::before{
+        content: '';
+		display: inline-block;
+		width: 2rem;
+		height: 2rem;
+        border-radius: 50%;
+		background: #27A5B8;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+
+    .skill-power .skill-power-business{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		text-decoration: none;
+		color: #262626;
+    }
+    .skill-power .skill-power-business::before{
+        content: '';
+		display: inline-block;
+		width: 2rem;
+		height: 2rem;
+        border-radius: 50%;
+		background: #BFCF45;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img img{
+        width: 500px;
+    }
+
+    .skill-power-01-wrap{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 64px;
+    }
+    .skill-power .skill-power-01{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		text-decoration: none;
+		color: #262626;
+    }
+
+    .skill-power .skill-power-01::before{
+        content: '';
+		display: inline-block;
+		width: 2rem;
+		height: 2rem;
+        border-radius: 50%;
+		background: #F4D770;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+    .umidasu-wrap .ummidasu-skill .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img img{
+        width: 400px;
+    }
+
+    #skill-power-01-img img{
+        width: 450px;
+    }
+
+    /* 生み出すエンジニアのスキルセット */
+
+
+
+
+    /* 生み出すエンジニアのレベル */
+    .umidasu-wrap .umidasu-level{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .umidasu-wrap .umidasu-level h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+
+    .umidasu-wrap .umidasu-level h2::before{
+        content: '';
+		display: inline-block;
+		width: 25px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-6px);
+		margin-right: 8px;
+    }
+
+    .umidasu-wrap .umidasu-level h2::after{
+        content: '';
+		display: inline-block;
+		width: 25px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-6px);
+		margin-right: 8px;
+    }
+
+    .umidasu-wrap .umidasu-level .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        transform: translateX(-20px);
+    }
+
+    .umidasu-wrap .umidasu-level .umdiasu-img img{
+        width: 400px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items:nth-of-type(1){
+        margin-top: 0;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items .umidasu-level-name{
+        align-items: center;
+    }
+    
+    .umidasu-wrap .umidasu-level .umidasu-level-items img{
+        width: 70px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items h3{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.8rem;
+		text-decoration: none;
+		color: #262626;
+
+        margin-left: 24px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items .umidasu-level-text{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.4rem;
+		text-decoration: none;
+		color: #262626;
+        margin-top: 16px;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
+    /* 生み出すエンジニアのレベル */
+
+    /* 生み出すエンジニアメッセージ */
+
+    .umidasu-message{
+        width: 75%;
+        margin: 0 auto;
+        padding: 100px 0;
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2.5rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        letter-spacing: 5px;
+        line-height: 50px;
+    }
+
+    /* 生み出すエンジニアメッセージ */
+	
+    /* ----タグ---- */
+	main .tag{
+		width: 100%;
+		background: #FCFCFC;
+	}
+
+	main .tag .tag-contents{
+		width: 75%;
+		padding: 40px 0;
+		margin: 0 auto;
+	}
+
+	main .tag .tag-contents h3{
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		color: #262626;
+		margin-bottom: 24px;
+	}
+
+	main .tag .tag-contents h3::before{
+		content: '';
+		display: inline-block;
+		width: 20px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-10px);
+		margin-right: 8px;
+	}
+
+	main .tag .tag-contents .tag-list{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	main .tag .tag-contents .tag-list li{
+		display: block;
+		padding: 8px 16px;
+		background: #F1F1F1;
+		border-radius: 30px;
+		margin:0 16px 24px 0;
+		box-shadow: 2px 2px 4px #C2C2C2;
+	}
+
+	main .tag .tag-contents .tag-list li a{
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.6rem;
+		text-decoration: none;
+		color: #434343;
+	}
+
+	/* ----タグ---- */
+
+	/* ----バナ---- */
+		
+	main .business-banner{
+		width: 100%;
+		background: #F1EEE7;
+		padding: 72px 0;
+	}
+
+	main .business-banner .business-banner-wrap{
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	main .business-banner .business-banner-wrap ul{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	main .business-banner .business-banner-wrap ul li{
+		margin: 1%;
+		list-style: none;
+	}
+
+	main .business-banner .business-banner-wrap ul li a img{
+		width: 100%;
+	}
+	/* ----バナ---- */
+
+}
+
+/* ----ipadサイズ---- */
+
+
+
+
+
+
+
+
+/* ----mobileサイズ---- */
+
+@media screen and (max-width: 599px){
+
+	/* パンくずリスト */
+	#breadcrumb{
+		width: 85%;
+		height: 50px;
+		margin: 0 auto;
+		background: #FCFCFC;
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.8rem;
+		text-decoration: none;
+		color: #262626;
+	}
+	#breadcrumb div {
+		line-height: 50px;
+		display: inline; /* 横並びに */
+	}
+
+	#breadcrumb a{
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.8rem;
+		text-decoration: none;
+		color: #262626;
+	}
+	/* パンくずリスト */
+
+	/* ----生み出すエンジニアとは---- */
+    .bc-01{
+        background: #F1EEE7;
+    }
+    .bc-02{
+        background: #fcfcfc;
+    }
+
+    .ummidasu-details{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1rem;
+		text-decoration: none;
+		color: #262626;
+    }
+    .ummidasu-details a{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #27A5B8;
+    }
+
+
+	main{
+		width: 100%;
+	}
+	main .umidasu-wrap{
+		width: 100%;
+	}
+	main .umidasu-wrap .umidasu-engineertoha{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    main .umidasu-wrap .umidasu-engineertoha h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.6rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+
+    main .umidasu-wrap .umidasu-engineertoha .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    main .umidasu-wrap .umidasu-engineertoha .umdiasu-img img{
+        width: 320px;
+    }
+    main .umidasu-text{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.2rem;
+		text-decoration: none;
+		color: #434343;
+        text-align: center;
+        padding: 32px 0;
+        line-height: 20px;
+    }
+
+    main .umidasu-text02{
+        padding-top: 0px;
+        padding-bottom: 32px;
+    }
+	/* ----生み出すエンジニアとは---- */
+
+
+
+    /* 生み出すエンジニアのスキルセット */
+    .umidasu-wrap .ummidasu-skill{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .umidasu-wrap .ummidasu-skill h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.4rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+    .skill-power{
+        width: 80%;
+        margin: 40px auto;
+        justify-content: space-around;
+    }
+
+    .skill-power .skill-power-it{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.4rem;
+		text-decoration: none;
+		color: #262626;
+    }
+
+    .skill-power .skill-power-it::before{
+        content: '';
+		display: inline-block;
+		width: 1.4rem;
+		height: 1.4rem;
+        border-radius: 50%;
+		background: #27A5B8;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+
+    .skill-power .skill-power-business{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.4rem;
+		text-decoration: none;
+		color: #262626;
+    }
+    .skill-power .skill-power-business::before{
+        content: '';
+		display: inline-block;
+		width: 1.4rem;
+		height: 1.4rem;
+        border-radius: 50%;
+		background: #BFCF45;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img img{
+        width: 300px;
+    }
+
+    .skill-power-01-wrap{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 64px;
+    }
+    .skill-power .skill-power-01{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 2rem;
+		text-decoration: none;
+		color: #262626;
+    }
+
+    .skill-power .skill-power-01::before{
+        content: '';
+		display: inline-block;
+		width: 2rem;
+		height: 2rem;
+        border-radius: 50%;
+		background: #F4D770;
+		margin-right: 8px;
+        transform: translateY(2px);
+    }
+    .umidasu-wrap .ummidasu-skill .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .umidasu-wrap .ummidasu-skill .umdiasu-img img{
+        width: 300px;
+    }
+
+    #skill-power-01-img img{
+        width: 300px;
+    }
+
+    /* 生み出すエンジニアのスキルセット */
+
+
+
+
+    /* 生み出すエンジニアのレベル */
+    .umidasu-wrap .umidasu-level{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .umidasu-wrap .umidasu-level h2{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.6rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        padding-top: 64px;
+    }
+
+    .umidasu-wrap .umidasu-level .umdiasu-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        transform: translateX(-10px);
+    }
+
+    .umidasu-wrap .umidasu-level .umdiasu-img img{
+        width: 280px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items:nth-of-type(1){
+        margin-top: 0;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items .umidasu-level-name{
+        align-items: center;
+    }
+    
+    .umidasu-wrap .umidasu-level .umidasu-level-items img{
+        width: 60px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items h3{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.6rem;
+		text-decoration: none;
+		color: #262626;
+
+        margin-left: 24px;
+    }
+
+    .umidasu-wrap .umidasu-level .umidasu-level-items .umidasu-level-text{
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.4rem;
+		text-decoration: none;
+		color: #262626;
+        margin-top: 16px;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
+    /* 生み出すエンジニアのレベル */
+
+    /* 生み出すエンジニアメッセージ */
+
+    .umidasu-message{
+        width: 75%;
+        margin: 0 auto;
+        padding: 100px 0;
+        font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.6rem;
+		text-decoration: none;
+		color: #262626;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+
+    /* 生み出すエンジニアメッセージ */
+
+	/* ----バナ---- */
+
+	main .business-banner{
+		width: 100%;
+		background: #F1EEE7;
+		padding: 72px 0;
+	}
+
+	main .business-banner .business-banner-wrap{
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	main .business-banner .business-banner-wrap ul{
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+	main .business-banner .business-banner-wrap ul li{
+		margin: 5% 0;
+		list-style: none;
+	}
+
+	main .business-banner .business-banner-wrap ul li a img{
+		width: 100%;
+	}
+	/* ----バナ---- */
+
+    /* ----タグ---- */
+	main .tag{
+		width: 100%;
+		background: #FCFCFC;
+	}
+
+	main .tag .tag-contents{
+		width: 85%;
+		padding: 40px 0;
+		margin: 0 auto;
+	}
+
+	main .tag .tag-contents h3{
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: bold;
+		font-size: 1.6rem;
+		color: #262626;
+		margin-bottom: 16px;
+	}
+
+	main .tag .tag-contents h3::before{
+		content: '';
+		display: inline-block;
+		width: 20px;
+		height: 2px;
+		background: #B7B7B7;
+		transform: translateY(-5px);
+		margin-right: 8px;
+	}
+
+	main .tag .tag-contents .tag-list{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	main .tag .tag-contents .tag-list li{
+		display: block;
+		padding: 4px 16px;
+		background: #F1F1F1;
+		border-radius: 30px;
+		margin:0 8px 24px 0;
+		box-shadow: 2px 2px 4px #C2C2C2;
+	}
+
+	main .tag .tag-contents .tag-list li a{
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 500;
+		font-size: 1.4rem;
+		text-decoration: none;
+		color: #434343;
+	}
+
+	/* ----タグ---- */
+
+}
